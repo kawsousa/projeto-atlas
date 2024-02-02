@@ -1,0 +1,174 @@
+@media (max-width: 1424px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        height: 125px;
+    }
+
+    .cabecalho .logo img {
+        padding: 9px 0;
+    }
+
+    .cabecalho .menu {
+        gap: 50px;
+        margin-bottom: 10px;
+    }
+
+    .home .informacoes {
+        gap: 15px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 15px;
+    }
+
+    .home .informacoes .texto .strong {
+        font-size: 22px;
+    }
+
+    .home .informacoes .lista-de-empresas ul li img {
+        max-width: 100px;
+    }
+
+    .home .informacoes .lista-de-empresas ul {
+        max-width: 300px;
+    }
+
+    .informacoes .btn-site {
+        width: 300px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .site .informacoes {
+        max-width: 500px;
+    }
+
+    .site .informacoes .titulo {
+        font-size: 50px;
+    }
+
+    .site .informacoes .texto {
+        font-size: 15px;
+    }
+
+    .site .informacoes .btn-site {
+        margin-top: -30px;
+    }
+
+    .equipe .titulo {
+        font-size: 40px;
+    }
+
+    .equipe .lista-do-grupo li {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .equipe .lista-do-grupo {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .equipe .lista-do-grupo img {
+        display: flex;
+        align-items: center;
+        max-width: 130px;
+    }
+
+    .equipe .nome {
+        display: flex;
+        align-items: flex-start;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .equipe .bio {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho .logo {
+        max-width: 20px;
+    }
+
+    .cabecalho .menu {
+        gap: 40px;
+    }
+
+    .home .informacoes {
+        max-width: 600px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 30px;
+    }
+
+    .home .informacoes .texto .strong {
+        font-size: 18px;
+    }
+
+    .home .informacoes .lista-de-empresas ul {
+        max-width: 250px;
+    }
+
+    .site .informacoes .titulo {
+        font-size: 45px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .cabecalho .logo{
+        max-width: 17px;
+    }
+
+    .cabecalho .menu li a{
+        font-size: 14px;
+    }
+
+    .home .informacoes{
+        padding: 60px 60px 60px 70px;
+        gap: 20px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 27px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 14px;
+    }
+
+    .home .informacoes .lista-de-empresas ul {
+        max-width: 230px;
+    }
+
+    .informacoes .btn-site {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .site .informacoes {
+        max-width: 360px;
+        gap: 35px;
+    }
+}
