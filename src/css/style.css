@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(234, 234, 234);
 }
 
@@ -167,44 +167,68 @@ body{
     margin-bottom: 30px;
 }
 
-.equipe{
+.equipe {
     padding: 40px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.equipe .titulo{
+.equipe .titulo {
     font-family: "Metrophobic-Regular";
     text-align: center;
     font-size: 60px;
     padding: 45px;
     font-weight: bolder;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
-.equipe .nome{
+.equipe .nome {
     font-family: "Metrophobic-Regular";
     font-weight: bolder;
     font-size: 20px;
+    color: rgb(224, 224, 224);
 }
 
-.equipe .bio{
+.equipe .bio {
+    color: white;
     font-family: "Metrophobic-Regular";
     font-size: 15px;
-    text-align:left;
+    text-align: left;
     line-height: 1.5;
+    padding: 10px 20px;
 }
 
-.equipe .lista-do-grupo{
+.equipe .lista-do-grupo {
     display: flex;
-    gap: 30px;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 50px;
     justify-content: center;
+    align-items: center;
 }
 
-.equipe .lista-do-grupo img{
+.equipe .lista-do-grupo li {
+    background-color: rgb(207, 41, 41);
+    display: flex;
+    border-radius: 10px 40px;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.equipe .lista-do-grupo img {
     max-width: 220px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.295));
 }
 
-footer{
+footer {
     display: flex;
     background-color: rgb(205, 15, 15);
     height: 50px;
